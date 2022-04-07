@@ -81,16 +81,17 @@ The key's randomart image is:
 If you are on windows you need to follow these [extra steps](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation).
 
 now copy the key to your ssh directory with the following method
+we can use `exit` to logout
 
 ```
 $ ssh cs15lsp22zz@ieng6.ucsd.edu
 <Enter Password>
-# now on server
+
 $ mkdir .ssh
-$ <logout>
-# back on client
+$ <logout> 
+#you need to do the following locally
 $ scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
-# You use your username and the path you saw in the command above
+
 ```
 Then you can login without password.
 ![Image](sd.png)
@@ -102,7 +103,7 @@ run `ls` on the remote server to see the file.
 
 on the server, use command
 * `javac yourfilename.java`
-* `java yourfilename` to run remotely.
+* `java yourfilename` to run remotely.  
 ![Image](ls.png)
 
 
