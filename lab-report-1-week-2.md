@@ -103,6 +103,7 @@ run `ls` on the remote server to see the file.
 on the server, use command
 * `javac yourfilename.java`
 * `java yourfilename` to run remotely.
+![Image](ls.png)
 
 
 
