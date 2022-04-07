@@ -2,9 +2,7 @@
 
 ## Hello smaller 
 
-heading level 1
 
-================
 
 **bold**
 
