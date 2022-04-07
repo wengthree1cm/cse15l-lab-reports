@@ -15,7 +15,7 @@
 
 [link](https://github.com/wengthree1cm/cse15l-lab-reports/edit/main/index.md）
 
-![Image](http://url/a.png)
+![Image](a.png)
 
 > Blockquote
 
