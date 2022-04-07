@@ -38,6 +38,8 @@ you should see the following result in terminal
 
 
 And then login in to ssh and use `ls`, you should see your file!!
+![Image](sasssd.png)
+
 &nbsp;  
 &nbsp;  
 # Setting an SSH Key
