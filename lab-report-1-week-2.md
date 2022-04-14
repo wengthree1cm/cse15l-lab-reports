@@ -77,7 +77,7 @@ The key's randomart image is:
 |             ..  |
 +----[SHA256]-----+
 ```
-
+![image](aaaa.png)
 If you are on windows you need to follow these [extra steps](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation).
 
 now copy the key to your ssh directory with the following method
@@ -99,12 +99,14 @@ Then you can login without password.
 &nbsp; 
 # Optimizing Remote Running
 
-run `ls` on the remote server to see the file.
+First, finishing editing your file locally.
 
-on the server, use command
-* `javac yourfilename.java`
-* `java yourfilename` to run remotely.  
-![Image](ls.png)
+And then use `"scp File name cse15lsp22amr@ieng6.ucsd.edu~/"` to copy  the file to the servefr
+
+And then use `"ssh cse15lsp22amr@ieng6.ucsd.edu "javac filename""` to compile the code
+
+And then use `"ssh cse15lsp22amr@ieng6.ucsd.edu
+"java filename""` to run the file
 
 
 
