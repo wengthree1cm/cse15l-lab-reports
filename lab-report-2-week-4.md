@@ -3,7 +3,7 @@
 `screenshot of code change`
 ![file3](https://user-images.githubusercontent.com/103155845/164629032-e61e5ff6-97d8-4678-90df-0264987b8396.png)  
 
-[Link to test file 3](https://github.com/wengthree1cm/markdown-parser/blob/main/test-file3.md)  
+[Link to test file 3](https://github.com/wengthree1cm/markdown-parser/blob/main/test-file3.html)  
 [Link to test file 3 in html](https://github.com/wengthree1cm/markdown-parser/blob/main/test-file3.html) 
 
 `screenshot of the symptom output`  
