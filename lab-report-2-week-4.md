@@ -6,7 +6,8 @@
 [Link to test file 3](https://github.com/wengthree1cm/markdown-parser/blob/main/test-file3.md)  
 
 `screenshot of the symptom output`  
-![symptom](https://user-images.githubusercontent.com/103155845/164631081-41767c5f-6b98-4079-807b-cdfd1320a142.png)
+![file3 symptom](https://user-images.githubusercontent.com/103155845/165864084-680c5579-c688-4b0a-ae2f-998d3041ce27.png)
+
 
 Here we can see that the bug is index out of bound. We know that if indexOf method does not find the thing we required, it will return -1. And we can see that in the file3 there is no "(" ")" which means there is no actual links. Therefore, the indexOf method cannot find "(" so it returns -1.
 &nbsp;
@@ -21,9 +22,12 @@ Here we can see that the bug is index out of bound. We know that if indexOf meth
  
 
 `screenshot of the symptom output`
-![file8](https://user-images.githubusercontent.com/103155845/164644005-3438e9f5-4360-44ce-8f11-333574d58903.png)  
+![file8](https://user-images.githubusercontent.com/103155845/165863844-dbdcbde8-e06e-4533-8ad5-095a1a67bd28.png)  
+![file8](https://user-images.githubusercontent.com/103155845/164644005-3438e9f5-4360-44ce-8f11-333574d58903.png) 
 
-Here we can see that the bug is that it goes into infinit loop.This is because the statement in the while loop is never false, which means that currentIndex is always smaller than markdown.length(). In the file we can see that the file ends with a "[" but not a ")" and that is why the currentindex cannot reach to the markdownlength().
+
+
+When I try to run `java MarkdownParse test-file8.md` in the terminal goes into infinit loop and never stop. I then use Junit test and here we can see that the bug is that it goes into infinit loop. This is because the statement in the while loop is never false, which means that currentIndex is always smaller than markdown.length(). In the file we can see that the file ends with a "[" but not a ")" and that is why the currentindex cannot reach to the markdownlength().
 &nbsp;
 &nbsp;
 
@@ -35,10 +39,10 @@ Here we can see that the bug is that it goes into infinit loop.This is because t
 [Link to file 5](https://github.com/wengthree1cm/markdown-parser/blob/main/test-file5.md)  
 
 `screenshot of the symptom output`  
-![sm file 5](https://user-images.githubusercontent.com/103155845/164648534-47dbf371-642a-41a4-80bf-e282dcbaa633.png)
-![sympoppp file5](https://user-images.githubusercontent.com/103155845/164648552-a1fb769a-d72d-4846-b3bf-df19bb7b61c1.png)  
+![file5 symptom](https://user-images.githubusercontent.com/103155845/165864124-4a7a88ac-8802-44fa-9208-325a49ffe368.png)
 
-In the first picture I added a print statement to see what is in the link and for file5, it prints out "page.com" which is in the bracket. However, this link should not be added as a link because in file 5 we can see that the bracket that contians the link is not closely connected to the Square brackets so that this is not a valid link implementation.
+
+In the first picture I added a print statement to see what is in the link and for file5, it prints out "page.com" as a link which is in the bracket. However, this link should not be added as a link because in file 5 we can see that the bracket that contians the link is not closely connected to the Square brackets so that this is not a valid link implementation.
 
 
 
