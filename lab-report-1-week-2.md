@@ -108,6 +108,8 @@ And then use `"ssh cse15lsp22amr@ieng6.ucsd.edu "javac filename""` to compile th
 And then use `"ssh cse15lsp22amr@ieng6.ucsd.edu
 "java filename""` to run the file
 
+ss
+
 
 
 
