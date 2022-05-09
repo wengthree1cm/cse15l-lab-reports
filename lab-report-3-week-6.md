@@ -30,6 +30,27 @@ This is the [link](https://github.com/wengthree1cm/markdown-parser/commit/513a66
 &nbsp;
 ## part3  
 
+I use command `scp -r . ieng6:~/makrdown-parse` to copy the directory to the server.  
+These pictures are the successful result of copying.
+![微信图片_202205091246451](https://user-images.githubusercontent.com/103155845/167491174-e1a7491b-f43d-498a-ae1e-3775b88d0d88.jpg)
+![微信图片_202205091246452](https://user-images.githubusercontent.com/103155845/167491212-a9b6559d-6189-49b6-9ea1-6dfa73a6f2f2.jpg)
+![微信图片_202205091246453](https://user-images.githubusercontent.com/103155845/167491225-32c19146-c275-4630-8412-96c2d20ffccf.jpg)  
+&nbsp;&nbsp;
+Then I login to my server account and use `ls` and found that the `makrdown-parse` is in there  
+I then run the test with command `javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java` and `java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest`  and pass the tests
+
+![微信图片_202205091246454](https://user-images.githubusercontent.com/103155845/167491736-86d503ee-0dcf-4625-8b22-00d353de0d53.jpg)
+
+&nbsp;&nbsp;&nbsp;
+Finally, I put all the command in one line and successfully copy the whole directory and run the tests in one line. 
+![微信图片_20220509132728](https://user-images.githubusercontent.com/103155845/167492085-f965cd6d-44fe-4312-a952-4cf92ae008b7.jpg)
+![微信图片_202205091327281](https://user-images.githubusercontent.com/103155845/167492096-0414da6b-fab3-425f-a8aa-eb87795291bc.jpg)
+
+
+
+
+
+
 
   
 
