@@ -19,8 +19,9 @@ Then I copy file "lab-report-1-week-2.md" using `scp` to the server
 The public key is stored in my github  
 ![微信截图_20220508155016](https://user-images.githubusercontent.com/103155845/167485901-78e4fe9d-bace-4496-8dfa-555b6ea49bd9.png)   
 
-And this picture is where the private key is stored on your user account   
-![微信截图_20220508155016](https://user-images.githubusercontent.com/103155845/167485959-2195b329-36a0-411a-b871-443d95614fbf.png)   
+And this picture is where the private key is stored on my user account   
+![微信截图_20220508155051](https://user-images.githubusercontent.com/103155845/167502994-0ca6c9b7-00c3-4364-b829-cc8eee96bf3f.png)
+ 
 
 I use git commands to commit a new change  
 ![微信图片_20220509124645](https://user-images.githubusercontent.com/103155845/167486233-8285552f-c143-4f47-971a-0e0617214139.jpg)    
