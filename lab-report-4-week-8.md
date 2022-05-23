@@ -50,7 +50,16 @@ The expect output is
 ![3](https://user-images.githubusercontent.com/103155845/169740216-debbccb9-b46d-402b-9bb9-d1ddfb0e1bca.png)  
 
 The output test is  
-![33](https://user-images.githubusercontent.com/103155845/169740295-2d1f689d-e7bf-4e83-8f1d-1a657a954945.png)
+![33](https://user-images.githubusercontent.com/103155845/169740295-2d1f689d-e7bf-4e83-8f1d-1a657a954945.png)  
+
+
+Question 1:
+My file passes snippet 1 but the review file does not. From the output we can see that the result lacks one link.  
+Looking into the file, the problem is because one of the link begins with "`[". I need to change the code so that it  
+can handle this case. Speciffically, I need the method to start counting when it detects "[".
+
+Question 2:
+
 
 
 
