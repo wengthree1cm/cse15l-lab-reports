@@ -42,7 +42,8 @@ The expect output is
 ![2](https://user-images.githubusercontent.com/103155845/169740119-1e66b713-dfb4-495e-9a2a-0e564ca2db9c.png)
 
 The output test is 
-![22](https://user-images.githubusercontent.com/103155845/169740174-7846a416-73ae-46ab-b799-537561d951f2.png)  
+![WeChat Screenshot_20220522210453](https://user-images.githubusercontent.com/103155845/169741263-157cdd14-c969-4556-a84f-cc702a412941.png)
+
 
 ## Snippet 3  
 
@@ -59,6 +60,17 @@ Looking into the file, the problem is because one of the link begins with "`[". 
 can handle this case. Speciffically, I need the method to start counting when it detects "[".
 
 Question 2:
+For Snippet 2, both my file and review file share the same problem since they have the same test output. What I need to change is to consider the case when there are multiple marenthesis in the link address. From the symptom we can see the link is `a.com(())` but the output is `a.com((`. I want the method to stop when it reaches  
+to the last parenthesis. 
+
+Question 3:
+For my file, from the test output we can see that my method counted in uneccessary space. What I need to change is to not count in the spaces. To do so,
+I need to add verify statement to skip all the space when the method detect a space. 
+
+For my review file, from the test output we can see that my method does not counted in the address `https://www.twitter.com` which it should. Looking at 
+testfile3, there are some spaces before the link so I think the problem is that when the close parenthesis is not closely connected to the link address,
+ my method does not consider it as a address. So I need to change my method so it can handle case when there are spaces between close parenthesis and the link address. 
+
 
 
 
