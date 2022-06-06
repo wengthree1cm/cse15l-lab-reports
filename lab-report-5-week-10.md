@@ -1,6 +1,6 @@
 # lab-report-5
 
-I use `vimdiff` and bash to compare two file in the same screen.
+I use `vimdiff` and `bash` to compare two file in the same screen.
 
 The test I used are [487](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/487.html.test) and [517](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/517.html.test)
 
